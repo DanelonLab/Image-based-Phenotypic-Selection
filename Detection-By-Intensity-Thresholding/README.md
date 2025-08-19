@@ -1,4 +1,3 @@
 # Detection by intensity thresholding (General Analysis module)
 
-![plot](./JOB-GeneralAnalysis-IntensityThresholding-1.PNG)
-
+<img src="./JOB-GeneralAnalysis-IntensityThresholding-1.PNG" alt="plot" width="500"/>
