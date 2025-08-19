@@ -22,18 +22,18 @@ Task 2: Waiting, time: 10 ms (a stimulation task has to end with an acquisition 
 8.	Click on Apply Stimulation Settings.
 9.	Start the JOB. Make sure the Perfect Focus System (PFS) is on, but make sure that no captures are taken outside of the sample area.
 
-Optional: In the JOB, you can enable to take a capture after stimulation, such that you can validate the photoactivation performance. This will lead to a lower throughput. Therefore, you could, for example, run this JOB with a couple of field-of-views (FOVs) to check if everything is working. Hereafter, you start the real experiment.<img width="468" height="68" alt="image" src="https://github.com/user-attachments/assets/a98e97db-f22f-4418-abe9-8c8247e4ee62" />
+Optional: In the JOB, you can enable to take a capture after stimulation, such that you can validate the photoactivation performance. This will lead to a lower throughput. Therefore, you could, for example, run this JOB with a couple of field-of-views (FOVs) to check if everything is working. Hereafter, you start the real experiment.
 
-## User interface
+## Description of the workflow and User interface
 
 <img src="./JOB-GeneralAnalysis-IntensityThresholding-1.PNG" alt="plot" width="500"/>
 
-Fig. 1 JOB for liposome detection by intensity thresholding, using a single time frame.
-JOB name: JOB-GeneralAnalysis-IntensityThresholding.bin. For each FOV, a capture is taken, which is analysed by the General Analysis module (Analysis1). The resulting points (i.e., coordinates of the detected liposomes) are stored in GA_points. For each point in GA_point, the stage moves to these coordinates. The Correction_misalign expression corrects for a potential misalignment between the intended and actual stimulation point (see Fig. S1 of manuscript). The liposome is stimulated in the center of the FOV.
+**Fig. 1 JOB for liposome detection by intensity thresholding, using a single time frame.**
+JOB name: _JOB-GeneralAnalysis-IntensityThresholding.bin_. For each FOV, a capture is taken, which is analysed by the General Analysis module (_Analysis1_). The resulting points (i.e., coordinates of the detected liposomes) are stored in _GA_points_. For each point in _GA_points_, the stage moves to these coordinates. The _Correction_misalign_ expression corrects for a potential misalignment between the intended and actual stimulation point (see Fig. S1 of manuscript). The liposome is stimulated in the center of the FOV.
 
 
 <img src="./JOB-GeneralAnalysis-IntensityThresholding-2.PNG" alt="plot" width="500"/>
 
-Fig. 2 General Analysis module within JOB-GeneralAnalysis-IntensityThresholding.bin. The results of the detection are stored in GA_points (this is defined in the Calculations tab).
+**Fig. 2 General Analysis module within _JOB-GeneralAnalysis-IntensityThresholding.bin_.** The results of the detection are stored in _GA_points_ (this is defined in the _Calculations_ tab).
 
 
