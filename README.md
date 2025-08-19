@@ -1,6 +1,7 @@
 # Image-based Phenotypic Selection
 
 General Description.
+Nikon microscope, NIS-Elements
 
 ## Developers
 
