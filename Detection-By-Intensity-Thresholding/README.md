@@ -2,7 +2,7 @@
 
 ## Goal
 
-Automated image acquisition, analysis by intensity thresholding and stimulation of detected objects. The acquisition, analysis and stimulation are all executed within the NIS-Elements software (Nikon).
+Automated image acquisition, analysis by the General Analysis module (intensity thresholding, morphology criteria) and stimulation of detected objects, all executed within the NIS-Elements software (Nikon).
 
 ## Required file
 
