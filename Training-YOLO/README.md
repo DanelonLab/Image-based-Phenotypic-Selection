@@ -1,14 +1,17 @@
 # Training and testing YOLO
 
+## Purpose
+
 Google Colab notebook for training and testing YOLO (e.g., YOLOv7-tiny). 
 
 This code was developed by: https://github.com/theAIGuysCode/YOLOv3-Cloud-Tutorial, and adjusted by the Danelon Lab.
 
-## How to run this code
+## How to run the code
 
 1.	Copy all required files to a folder in your Google Drive (listed below).
 2.	In the first line of the code, define the path to your folder.
 3.	Run the code.
+4.	After training, test the model using various detection thresholds (-thresh parameter) to obtain the corresponding precision and recall values. Choose a suitable threshold based on the tradeoff between precision and recall.
 
 ## Required files
 -	Create an empty folder named ‘backup’, where the training weights will be stored after every 1000 epochs
