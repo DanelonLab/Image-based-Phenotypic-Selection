@@ -1,4 +1,4 @@
-# Detection by cell morphology and signal intensity parameters (General Analysis module)
+# Photoactivation pipeline with image analysis using cell morphology and signal intensity parameters (General Analysis module)
 
 ## Purpose
 Automated image acquisition, analysis by the General Analysis module (intensity thresholding, morphology criteria) and stimulation of detected objects, all executed within the NIS-Elements software (Nikon).
